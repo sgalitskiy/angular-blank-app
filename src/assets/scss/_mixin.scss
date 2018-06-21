@@ -1,0 +1,11 @@
+@mixin text-overflow($display:flex) {
+  white-space: nowrap;
+  display: $display;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin margin-top-bottom($size:1em) {
+  margin-top:$size;
+  margin-bottom:$size;
+}

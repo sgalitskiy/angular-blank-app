@@ -1,0 +1,34 @@
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+/* common styles */
+.text- {
+  &:right {
+    text-align: right;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.full-width {
+  width:100%;
+}
+
+.margin-md {
+  @include margin-top-bottom(0.5em);
+}
+
+.margin-sm {
+  @include margin-top-bottom(0.2em);
+}
+
+.margin-lg {
+  @include margin-top-bottom(1em);
+}
